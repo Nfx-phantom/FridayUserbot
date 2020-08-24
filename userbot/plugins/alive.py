@@ -18,10 +18,10 @@ pm_caption += "`DATABASE STATUS:` **Functional**\n"
 pm_caption += "**Current Branch** : `Nfx`\n"
 pm_caption += "**Phantom OS** : `3.14`\n"
 pm_caption += "**Current Sat** : `NfxGangSet-2.25`\n"
-pm_caption += f"¥¥ Mh Owner ¥¥ : {DEFAULTUSER} \n"
+pm_caption += f"**Mh Owner** : {DEFAULTUSER} \n"
 pm_caption += "**Heroku Database** : `AWS - Working Properly`\n\n"
 pm_caption += "**License** : [Github ID](https://github.com/Nfx-phantom)\n"
-pm_caption += "Copyright : By [NfxPhantomGang@github](NfxPhantomGang@github.com)\n"
+pm_caption += "Copyright : [NfxPhantomGang@github](NfxPhantomGang@github.com)\n"
 pm_caption += "**Msg Reply Waiting Time** : `Depends Up On Mh Master `\n"
 
 @borg.on(admin_cmd(pattern=r"alive"))
