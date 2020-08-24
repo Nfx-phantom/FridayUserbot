@@ -1,5 +1,9 @@
-"""Check if userbot alive. If you change these, you become the gayest gay such that even the gay world will disown you."""
-#IMG CREDITS: @WhySooSerious
+#Copyright (C) 2020 The Sonia Roy companyy LLC.
+#
+# Licensed under theSonia Roy Public License, Version 1.d (the "License");
+# you may not use this file except in compliance with the License.
+"""Check if userbot alive. Codes by Nfx Phantom . Anybody if tries to change would be taken under serious custody and legal action would definately be taken."""
+#IMG CREDITS: @N_f_x_P_h_a_N_T_o_M
 import asyncio
 from telethon import events
 from uniborg.util import admin_cmd
