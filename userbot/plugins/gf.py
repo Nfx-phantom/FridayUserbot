@@ -1,8 +1,15 @@
+#Copyright (C) 2020 The Sonia Roy companyy LLC.
+
+#
+
+# Licensed under theSonia Roy Public License, Version 1.d (the "License");
+
+# you may not use this file except in compliance with the License
 """
 Available Commands: .gf
 
-by @KshitijGagan
-inspired from @xcruzhd2 """
+by @N_f_x_P_h_a_N_T_o_M
+inspired from @N_f_x_P_h_a_N_T_o_M """
 
 from telethon import events
 
