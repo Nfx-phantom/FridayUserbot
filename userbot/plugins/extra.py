@@ -147,6 +147,8 @@ CMD_HELP.update({
 })
 CMD_HELP.update({
 	"love": "Love ❤️"
+	)}
+	
 	
 CMD_HELP.update({
     "clock": "Bot will send a cool clock animation."
