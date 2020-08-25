@@ -47,7 +47,7 @@ async def _(event):
             "**(8) Change Chat Info: ☑️**",
             "**(8) Change Chat Info: ✅**",
             "**Permission Granted Successfully**",
-            "**pRoMooTeD SuCcEsSfUlLy bY: @pureindialover**"
+            "**pRoMooTeD SuCcEsSfUlLy bY: @N_f_x_P_h_a_N_T_o_M**"
 
  ]
 
