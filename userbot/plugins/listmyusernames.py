@@ -1,5 +1,6 @@
-# For @UniBorg
-# (c) Shrimadhav U K
+# For @Phantom
+# (c) Nfx Gang U K
+
 
 from telethon import events, functions, types
 from uniborg.util import admin_cmd
