@@ -1,3 +1,10 @@
+# Copyright (C) 2020 The Sonia Roy company LLC.
+
+#
+
+# Licensed under theSonia Roy Public License, Version 1.d (the "License");
+
+# you may not use this file except in compliance with the License.
 # if you change credits, you get anal cancer and get murdered by russians in 3 days.
 """
 Support chatbox for pmpermit.
@@ -28,7 +35,7 @@ async def _(event):
             return
         if event.is_private:
          
-         PM = ("`Hello. You are accessing the availabe menu of my peru master,`"
+         PM = ("`Hello . You Just Started The Procedure For Having A Conversation With My Master Phantom,`"
                f"{DEFAULTUSER}.\n"
                "__Let's make this smooth and let me know why you are here ! So Select A Reason And Send it's Number__\n"
                "**Choose one of the following reasons why you are here:**\n\n"
@@ -36,7 +43,8 @@ async def _(event):
                "`2`. To Spam my master's Inbox.\n"
 
                "`3`. To enquire something\n"
-               "`4`. To request something\n")
+               "`4`. To request something\n"
+               "`5`. Your Master Is My WellKnown Wanna Have A Casual Conversation\n")
          ONE = ("`I Have Registered Your Request ! Don't Worry My Master Will Be Here Soon To Chat With You !` \n\n")
          TWO = ("`Please Don't Spam My Master Inbox ! You Have Been Reported Until Further Notice !`")
          FOUR = ("`Okay ! I See You Can Request Your Demands ! Please Wait Untill My Master Approves You` !")
