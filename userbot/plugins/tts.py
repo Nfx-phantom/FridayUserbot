@@ -1,4 +1,4 @@
-# Copyright (C) 2019 The Sonia Roy companyy LLC.
+# Copyright (C) 2019 The Sonia Roy company LLC.
 #
 # Licensed under theSonia Roy Public License, Version 1.d (the "License");
 # you may not use this file except in compliance with the License.
