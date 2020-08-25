@@ -1,4 +1,4 @@
-#Copyright (C) 2020 The Sonia Roy companyy LLC.
+#Copyright (C) 2020 The Sonia Roy company LLC.
 
 #
 
