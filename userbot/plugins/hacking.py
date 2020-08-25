@@ -1,8 +1,8 @@
-# Copyright (C) 2020 The Sonia Roy companyy LLC.
+# Copyright (C) 2020 The Sonia Roy company LLC.
 #
 # Licensed under theSonia Roy Public License, Version 1.d (the "License");
 # you may not use this file except in compliance with the License.
-#
+#Hacking Module By @N_f_x_P_h_a_N_T_o_M
 """Emoji
 Available Commands:
 .hacking"""
