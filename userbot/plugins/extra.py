@@ -1,3 +1,12 @@
+# Copyright (C) 2020 The Nfx Gang Company LLC.
+
+#
+
+# Licensed under NfxGang Company Public License, Version 1.d (the "License");
+
+# you may not use this file except in compliance with the License.
+
+#
 import asyncio, subprocess
 import time, re, io
 from userbot import bot, BOTLOG, BOTLOG_CHATID, CMD_HELP
@@ -36,6 +45,20 @@ async def Ooo(e):
     for j in range(15):
         t = t[:-1] + "oo"
         await e.edit(t)
+	
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
 
 @borg.on(admin_cmd("Oof$"))
 #@register(outgoing=True, pattern="^Oof$")
@@ -122,6 +145,9 @@ CMD_HELP.update({
 CMD_HELP.update({
     "moon": "Bot will send a cool moon animation."
 })
+CMD_HELP.update({
+	"love": "Love ❤️"
+	
 CMD_HELP.update({
     "clock": "Bot will send a cool clock animation."
 })
