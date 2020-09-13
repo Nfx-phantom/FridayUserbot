@@ -10,19 +10,19 @@ from uniborg.util import admin_cmd
 from userbot import ALIVE_NAME
 from telethon.tl.types import ChannelParticipantsAdmins
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Unknown"
-PM_IMG = "https://telegra.ph/file/4fca63b472e86ecb7ae3d.jpg"
+PM_IMG = "https://telegra.ph/file/03aa25cc8d362d0e936e6.jpg"
 pm_caption = "`PHANTOM IS:` **ONLINE**\n\n"
 pm_caption += "**SYSTEM STATUS**\n"
-pm_caption += "`TELETHON VERSION:` **6.0.9**\n`Python:` **3.7.4**\n"
-pm_caption += "`DATABASE STATUS:` **Functional**\n"
+pm_caption += "`TELETHON VERSION:` **8.0.8**\n`Python:` **6.5.7**\n"
+pm_caption += "`DATABASE STATUS:` **Working**\n"
 pm_caption += "**Current Branch** : `Nfx`\n"
-pm_caption += "**Phantom OS** : `3.14`\n"
-pm_caption += "**Current Sat** : `NfxGangSet-2.25`\n"
+pm_caption += "**Phantom OS** : `6.62`\n"
+pm_caption += "**Current Sat** : `NfxGangSet-9.12`\n"
 pm_caption += f"**Mh Owner** : {DEFAULTUSER} \n"
-pm_caption += "**Heroku Database** : `AWS - Working Properly`\n\n"
+pm_caption += "**Heroku Database** : `AWS - Zinda Hai`\n\n"
 pm_caption += "**License** : [Github ID](https://github.com/Nfx-phantom)\n"
 pm_caption += "Copyright : [NfxPhantomGang@github](NfxPhantomGang@github.com)\n"
-pm_caption += "**Msg Reply Waiting Time** : `Depends Up On Mh Master `\n"
+pm_caption += "**Msg Reply Waiting Time** : `Depends Up On My Master `\n"
 
 @borg.on(admin_cmd(pattern=r"alive"))
 async def phantom(alive):
