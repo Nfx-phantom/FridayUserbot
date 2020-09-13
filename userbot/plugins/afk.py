@@ -122,9 +122,9 @@ async def on_afk(event):
                 afk_since = f"`{int(seconds)}s` **ago**"
         msg = None
         message_to_reply = f"**My Owner Is Offline** ! \n\n**Reason** : `{reason}` \n\n**Afk Since** : {afk_since}" + \
-            f"\n\n__Kindly Leave A Message__ ! \n`Phantom Ji Ka Hamko Nahi Pata When Will She Gi Aaye Online ...Huuh!`" \
+            f"\n\n__Kindly Leave A Message__ ! \n`Phantom Ji Ka Hamko Nahi Pata When Will She Gi Aaye Online.!`" \
             if reason \
-            else f"**Heya...Aaha Bade Nawab Jo Nikle Hamare Master Ji 🧐 NawabZaadi "Phantom" Ji Reason Bhi Mention Nahi Karke Gaye Kaahe Offline Hai To Better Aap Unka Wait Na Hi Kare ! Chalo Bhaagi Ab Tum Yaha Se Unno Online Ayenge Ya Nahi Hamko Kachi Naahi Pata.!**"
+            else f"**Hello, Aaha Bade Nawab Jo Nikle Hamare Master Ji NawabZaadi Phantom Ji Reason Bhi Mention Nahi Karke Gaye Kaahe Offline Hai To Better Aap Unka Wait Na Hi Kare ! Chalo Bhaagi Ab Tum Yaha Se Unno Online Ayenge Ya Nahi Hamko Kachi Naahi Pata.!**"
         msg = await event.reply(message_to_reply)
         await asyncio.sleep(5)
         if event.chat_id in last_afk_message:  # pylint:disable=E0602
