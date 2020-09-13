@@ -10,7 +10,7 @@ from userbot.utils import admin_cmd
 
 PMPERMIT_PIC = os.environ.get("PMPERMIT_PIC", None)
 if PMPERMIT_PIC is None:
-  WARN_PIC = "https://telegra.ph/file/4fca63b472e86ecb7ae3d.jpg"
+  WARN_PIC = "https://telegra.ph/file/03aa25cc8d362d0e936e6.jpg"
 else:
   WARN_PIC = PMPERMIT_PIC
 
@@ -19,14 +19,14 @@ PREV_REPLY_MESSAGE = {}
 
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Set ALIVE_NAME in config vars in Heroku"
-CUSTOM_MIDDLE_PMP = str(CUSTOM_PMPERMIT) if CUSTOM_PMPERMIT else "**YOU HAVE TRESPASSED TO MY MASTERS INBOX** \n`THIS IS ILLEGAL AND REGARDED AS A CRIME`"
-USER_BOT_WARN_ZERO = "`You were spamming my Boss's inbox, henceforth your retarded lame ass has been blocked by my master's userbot.` "
+CUSTOM_MIDDLE_PMP = str(CUSTOM_PMPERMIT) if CUSTOM_PMPERMIT else "**YOU JUST INFRINGED MY MASTER'S INBOX** \n`THIS IS ILLEGAL AND REGARDED AS A CRIME`"
+USER_BOT_WARN_ZERO = "`You were spamming my Boss's inbox, Hereinafter Your Account Has Been Blocked By Userbot.` "
 USER_BOT_NO_WARN = ("`Heya ! This is` **P.H.A.N.T.O.M**\n"
-                    "`Private Messaging Security Service ⚠️`\n\n"
+                    "`Inbox Anti Flood Service 🔱`\n\n"
                     "**Currently My Master**\n"
-                    f"{DEFAULTUSER} is Busy ! So Better Don't Spam Her Inbox !\n\n"
+                    f"{DEFAULTUSER} is Unavailable At The Moment 🔥 ! Stop Spamming Her's Inbox \n\n"
                     f"{CUSTOM_MIDDLE_PMP} \n\n"
-                    "**Now You Are In Trouble So Send** 🍁 `/start` 🍁  **To Start A Valid Conversation!!**")
+                    "**Now You Are In Trouble So Send** ✨ `/start` ✨  **To Start A Valid Conversation!!**")
 
 
 if Var.PRIVATE_GROUP_ID is not None:
