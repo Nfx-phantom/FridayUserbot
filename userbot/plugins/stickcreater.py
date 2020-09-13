@@ -1,4 +1,15 @@
-# Random RGB Sticklet by @PhycoNinja13b
+#Copyright (C) 2020 NFX Gang LLC.
+
+#
+
+# Licensed under MfxGang Public License, Version 1.d (the "License");
+
+# you may not use this file except in compliance with the License
+
+#Font Sticker By @N_f_x_P_h_a_N_T_o_M_G_a_n_g
+
+
+
 
 # modified by @UniBorg
 
@@ -50,11 +61,11 @@ async def sticklet(event):
     width, height = draw.multiline_textsize(sticktext, font=font)
     draw.multiline_text(((512-width)/2,(512-height)/2), sticktext, font=font, fill=(R, G, B))
     image_stream = io.BytesIO()
-    image_stream.name = "Friday.webp"
+    image_stream.name = "Phantom.webp"
     image.save(image_stream, "WebP")
     image_stream.seek(0)
     # finally, reply the sticker
-    await event.client.send_file(event.chat_id, image_stream, caption="Created Using Friday Userbot", reply_to=event.message.reply_to_msg_id)
+    await event.client.send_file(event.chat_id, image_stream, caption="Sticker By Phantom Userbot", reply_to=event.message.reply_to_msg_id)
     # cleanup
     try:
         os.remove(FONT_FILE)
@@ -104,7 +115,7 @@ async def sticklet(event):
     image.save(image_stream, "WebP")
     image_stream.seek(0)
     # finally, reply the sticker
-    await event.client.send_file(event.chat_id, image_stream, caption="Created Using Friday Userbot", reply_to=event.message.reply_to_msg_id)
+    await event.client.send_file(event.chat_id, image_stream, caption="Sticker By Phantom Userbot", reply_to=event.message.reply_to_msg_id)
     # cleanup
     try:
         os.remove(FONT_FILE)
