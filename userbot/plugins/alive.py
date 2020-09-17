@@ -39,7 +39,7 @@ pm_caption += f"➥ **My Boss** : {DEFAULTUSER} \n"
 pm_caption += "➥ **Heroku Database** : `AWS - Working Properly`\n\n"
 pm_caption += "➥ **License** : [GNU General Public License v3.0](github.com/Rudraksh-nfx/FridayUserbot/blob/master/LICENSE)\n"
 pm_caption += "➥ **Copyright** : By [Rudraksh_Nfx@Github](https://github.com/rudrakshboy)\n"
-pm_caption += "🎀 [Master status](Rudraksh Soni Is My Master) 🎀"
+pm_caption += "⭐ [Master status](Rudraksh Soni Is My Master) ⭐"
 
 @borg.on(admin_cmd(pattern=r"alive"))
 @borg.on(sudo_cmd(pattern=r"alive", allow_sudo=True))
